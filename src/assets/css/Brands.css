@@ -1,0 +1,20 @@
+.brands
+{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.add-brands
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

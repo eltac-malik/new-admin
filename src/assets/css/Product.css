@@ -1,0 +1,118 @@
+.add-prod
+{
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.prod-form
+{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.prod-div
+{
+    width: 70%;
+    min-height: 50px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+}
+
+.prod-inp
+{
+    width: 60%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.prod-div label
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.prod-inp
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.prod-btn
+{
+    background-color: rgb(235, 134, 134);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+select
+{
+    background-color: white;
+    border: none;
+}
+
+.prod-back
+{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 134, 134);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

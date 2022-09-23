@@ -1,0 +1,157 @@
+.modal-content
+{
+    width: 600px !important;
+}
+
+
+.slid-area
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.slid-area label
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.slid-area input
+{
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid silver;
+}
+
+.select-file
+{
+    width: 200px;
+    height: 50px;
+    cursor: pointer !important;
+    position: relative;
+    border:  1px solid rgba(192, 192, 192, 0.678);
+    border-radius: 5px;
+}
+
+.bi-link-45deg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.custom-file-input
+{  
+    width: 100%;
+    height: 100%;
+}
+
+.btn-secondary
+{
+    background-color:  red !important;
+    border: none;
+    outline: none
+}
+
+.btn-secondary:hover
+{
+    background-color: rgb(187, 8, 8) !important;
+    transition: 0.3s;
+}
+
+.btn-primary
+{
+    background-color: seagreen !important;
+    border: none;
+    outline: none
+}
+
+.area-t
+{
+    height: 150px !important;
+}
+
+.area
+{
+    width: 70%;
+    height: 100px;
+}
+
+.sub-input
+{
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 5px;
+    background: #000;
+}
+
+.sub-input:hover
+{
+    background-color: seagreen;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s
+}
+
+.slid-btn
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-img
+{
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 10px;
+}
+.img-path
+{
+    width: 200px !important;
+    height: 100px !important;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slid-all
+{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modded
+{
+    margin-top: 20px !important;
+}

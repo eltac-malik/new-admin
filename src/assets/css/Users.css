@@ -1,0 +1,147 @@
+.users
+{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table-cont
+{
+    width: 90%;
+    height: 600px;
+    overflow: scroll;
+}
+
+
+.tr-title
+{
+    background-color: #161618;
+    color: white;
+}
+
+tr:nth-child(odd)
+{
+    background-color: rgb(233, 233, 233);
+}
+
+.det
+{
+    cursor: pointer;
+    color: white;
+    background-color: #161618;
+}
+.det:hover
+{
+    background-color: white;
+    color: #161618;
+    transition: 0.3s;
+    border: 1px solid #161618;
+}
+
+.add-user
+{
+    width: 90%;
+    margin: 50px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mod-btn
+{
+    background-color: #161618;
+    color: white;
+}
+
+.mod-btn:hover
+{
+    background-color: white;
+    color: #161618;
+    border: 1px solid #161618;
+    transition: 0.3s;
+}
+
+.modal
+{
+    margin-top: 200px;
+}
+
+.mod-part
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mod-part input
+{
+    width: 60%;
+}
+
+.btns-mod
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btns-mod .btn
+{
+    margin: 5px;
+}
+
+.add
+{
+    background-color: seagreen;
+    color: white;
+}
+.cls
+{
+    background-color: red !important;
+    color: white;
+}
+
+.cls:hover
+{
+    color: white;
+}
+.add:hover
+{
+    color: white;
+}
+
+.add-lbl
+{
+    display: flex
+}
+
+.add-err
+{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-circle-exclamation
+{
+    color: red;
+    position: absolute;
+    animation: exc 0.2s infinite;
+}
+
+@keyframes exc
+{
+    from{left: -3px}
+    to{left: 3px}
+}
